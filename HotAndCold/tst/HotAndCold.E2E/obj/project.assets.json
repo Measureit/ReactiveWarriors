@@ -598,6 +598,15 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
+      "Polly/7.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {}
+        }
+      },
       "RestSharp/106.12.0": {
         "type": "package",
         "compile": {
@@ -1259,6 +1268,18 @@
           "lib/netstandard1.3/System.ObjectModel.dll": {}
         }
       },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
+        }
+      },
       "System.Reflection/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1817,6 +1838,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "HotAndCold.Contract": "1.0.0",
           "HotAndCold.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -1830,9 +1852,25 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "HotAndCold.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "HotAndCold.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HotAndCold.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotAndCold.Application.dll": {}
+        }
+      },
       "HotAndCold.Contract/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "HotAndCold.Application": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/HotAndCold.Contract.dll": {}
         },
@@ -1840,12 +1878,26 @@
           "bin/placeholder/HotAndCold.Contract.dll": {}
         }
       },
+      "HotAndCold.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HotAndCold.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotAndCold.Domain.dll": {}
+        }
+      },
       "HotAndCold.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "HotAndCold.Application": "1.0.0",
           "HotAndCold.Contract": "1.0.0",
-          "Microsoft.AspNetCore.SignalR.Core": "1.1.0"
+          "HotAndCold.Domain": "1.0.0",
+          "Microsoft.AspNetCore.SignalR.Core": "1.1.0",
+          "Polly": "7.2.2",
+          "System.Reactive": "5.0.0"
         },
         "compile": {
           "bin/placeholder/HotAndCold.Infrastructure.dll": {}
@@ -3027,6 +3079,29 @@
         "build/netcoreapp2.1/testcentric.engine.metadata.dll",
         "nunit3testadapter.4.0.0.nupkg.sha512",
         "nunit3testadapter.nuspec"
+      ]
+    },
+    "Polly/7.2.2": {
+      "sha512": "E6CeKyS513j7taKAq4q2MESDBvzuzWnR1rQ2Y2zqJvpiVtKMm699Aubb20MUPBDmb0Ov8PmcLHTCVFdCjoy2kA==",
+      "type": "package",
+      "path": "polly/7.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Polly.dll",
+        "lib/net461/Polly.pdb",
+        "lib/net461/Polly.xml",
+        "lib/net472/Polly.dll",
+        "lib/net472/Polly.pdb",
+        "lib/net472/Polly.xml",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
+        "lib/netstandard1.1/Polly.xml",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.pdb",
+        "lib/netstandard2.0/Polly.xml",
+        "polly.7.2.2.nupkg.sha512",
+        "polly.nuspec"
       ]
     },
     "RestSharp/106.12.0": {
@@ -4919,6 +4994,35 @@
         "system.objectmodel.nuspec"
       ]
     },
+    "System.Reactive/5.0.0": {
+      "sha512": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "type": "package",
+      "path": "system.reactive/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net5.0/_._",
+        "build/netcoreapp3.1/System.Reactive.dll",
+        "build/netcoreapp3.1/System.Reactive.targets",
+        "build/netcoreapp3.1/System.Reactive.xml",
+        "buildTransitive/net5.0/_._",
+        "buildTransitive/netcoreapp3.1/System.Reactive.targets",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net5.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net5.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net5.0/System.Reactive.dll",
+        "lib/net5.0/System.Reactive.xml",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "system.reactive.5.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
     "System.Reflection/4.3.0": {
       "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package",
@@ -6435,10 +6539,20 @@
       "path": "../../HotAndCold/HotAndCold.csproj",
       "msbuildProject": "../../HotAndCold/HotAndCold.csproj"
     },
+    "HotAndCold.Application/1.0.0": {
+      "type": "project",
+      "path": "../../lib/HotAndCold.Application/HotAndCold.Application.csproj",
+      "msbuildProject": "../../lib/HotAndCold.Application/HotAndCold.Application.csproj"
+    },
     "HotAndCold.Contract/1.0.0": {
       "type": "project",
       "path": "../../lib/HotAndCold.Contract/HotAndCold.Contract.csproj",
       "msbuildProject": "../../lib/HotAndCold.Contract/HotAndCold.Contract.csproj"
+    },
+    "HotAndCold.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../lib/HotAndCold.Domain/HotAndCold.Domain.csproj",
+      "msbuildProject": "../../lib/HotAndCold.Domain/HotAndCold.Domain.csproj"
     },
     "HotAndCold.Infrastructure/1.0.0": {
       "type": "project",

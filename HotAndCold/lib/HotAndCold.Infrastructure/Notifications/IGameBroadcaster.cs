@@ -1,10 +1,10 @@
-﻿using HotAndCold.Contract.Commands;
+﻿using HotAndCold.Contract;
 using System.Threading.Tasks;
 
 namespace HotAndCold.Infrastructure.Notifications
 {
     public interface IGameBroadcaster
     {
-        Task gameCreated(GameCreated @event);
+        Task roomCreated(RoomCreated @event);
     }
 }

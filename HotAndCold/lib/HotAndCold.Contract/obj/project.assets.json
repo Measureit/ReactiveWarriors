@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "HotAndCold.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "HotAndCold.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HotAndCold.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotAndCold.Application.dll": {}
+        }
+      },
+      "HotAndCold.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HotAndCold.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotAndCold.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HotAndCold.Application/1.0.0": {
+      "type": "project",
+      "path": "../HotAndCold.Application/HotAndCold.Application.csproj",
+      "msbuildProject": "../HotAndCold.Application/HotAndCold.Application.csproj"
+    },
+    "HotAndCold.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HotAndCold.Domain/HotAndCold.Domain.csproj",
+      "msbuildProject": "../HotAndCold.Domain/HotAndCold.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "HotAndCold.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\jaros\\.nuget\\packages\\": {},
@@ -37,7 +74,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Application\\HotAndCold.Application.csproj": {
+              "projectPath": "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Application\\HotAndCold.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

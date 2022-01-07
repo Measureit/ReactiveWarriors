@@ -70,7 +70,12 @@
       "ProjectGuid": "d75da96e-118f-4bd6-bbd9-12858b3eb7aa",
       "DisplayName": "HotAndCold.Contract",
       "ColorIndex": 12
+    },
+    "e83c869b-3e2f-40b1-9c2a-b11e80921b1b": {
+      "ProjectGuid": "e83c869b-3e2f-40b1-9c2a-b11e80921b1b",
+      "DisplayName": "HotAndCold.Application",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 14
 }

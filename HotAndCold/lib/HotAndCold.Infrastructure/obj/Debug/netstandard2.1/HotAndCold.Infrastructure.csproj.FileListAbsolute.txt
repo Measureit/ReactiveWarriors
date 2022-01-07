@@ -7,3 +7,11 @@ R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstanda
 R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstandard2.1\HotAndCold.Infrastructure.csproj.CoreCompileInputs.cache
 R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstandard2.1\HotAndCold.Infrastructure.dll
 R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstandard2.1\HotAndCold.Infrastructure.pdb
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\bin\Debug\netstandard2.1\HotAndCold.Contract.dll
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\bin\Debug\netstandard2.1\HotAndCold.Contract.pdb
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstandard2.1\HotAndCold.Infrastructure.csproj.AssemblyReference.cache
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstandard2.1\HotAndCold.Infrastructure.csproj.CopyComplete
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\bin\Debug\netstandard2.1\HotAndCold.Application.dll
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\bin\Debug\netstandard2.1\HotAndCold.Domain.dll
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\bin\Debug\netstandard2.1\HotAndCold.Application.pdb
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\bin\Debug\netstandard2.1\HotAndCold.Domain.pdb

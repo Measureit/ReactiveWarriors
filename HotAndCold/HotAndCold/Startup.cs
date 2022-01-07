@@ -1,13 +1,11 @@
-﻿using HotAndCold.Infrastructure.Notifications;
+﻿using HotAndCold.HostedServices;
+using HotAndCold.Infrastructure.Notifications;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Threading;
-using System.Threading.Tasks;
+using HotAndCold.Infrastructure.MessageBus;
 
 namespace HotAndCold
 {
@@ -22,10 +20,20 @@ namespace HotAndCold
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", cors =>
+                    cors
+                    .AllowAnyHeader()
+                       .AllowAnyMethod()
+                       .SetIsOriginAllowed((host) => true)
+                       .AllowCredentials());
+            });
             services.AddControllersWithViews();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
             services.AddSignalR();
+            services.AddInMemoryMessageBus();
             services.AddHostedService<NotificationHostedService>();
         }
 
@@ -37,7 +45,7 @@ namespace HotAndCold
                 app.UseSwaggerUI();
                 app.UseHsts();
             }
-
+            app.UseCors("CorsPolicy");
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
@@ -55,10 +63,3 @@ namespace HotAndCold
         }
     }
 }
-
-
-
-
-//app.MapControllerRoute(
-//    name: "default",
-//    pattern: "{controller}/{action=Index}/{id?}");

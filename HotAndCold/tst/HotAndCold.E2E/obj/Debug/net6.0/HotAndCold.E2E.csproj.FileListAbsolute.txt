@@ -126,3 +126,13 @@ R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\obj\Debug\net6.0\HotAndCold.E2
 R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\obj\Debug\net6.0\ref\HotAndCold.E2E.dll
 R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\obj\Debug\net6.0\HotAndCold.E2E.pdb
 R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\obj\Debug\net6.0\HotAndCold.E2E.genruntimeconfig.cache
+R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\bin\Debug\net6.0\Polly.dll
+R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\bin\Debug\net6.0\System.Reactive.dll
+R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\bin\Debug\net6.0\HotAndCold.Application.dll
+R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\bin\Debug\net6.0\HotAndCold.Contract.dll
+R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\bin\Debug\net6.0\HotAndCold.Domain.dll
+R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\bin\Debug\net6.0\HotAndCold.Infrastructure.dll
+R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\bin\Debug\net6.0\HotAndCold.Application.pdb
+R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\bin\Debug\net6.0\HotAndCold.Contract.pdb
+R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\bin\Debug\net6.0\HotAndCold.Domain.pdb
+R:\ReactiveWarriors\HotAndCold\tst\HotAndCold.E2E\bin\Debug\net6.0\HotAndCold.Infrastructure.pdb

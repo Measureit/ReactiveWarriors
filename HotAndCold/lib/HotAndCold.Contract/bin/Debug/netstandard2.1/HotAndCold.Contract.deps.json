@@ -8,14 +8,40 @@
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
       "HotAndCold.Contract/1.0.0": {
+        "dependencies": {
+          "HotAndCold.Application": "1.0.0"
+        },
         "runtime": {
           "HotAndCold.Contract.dll": {}
+        }
+      },
+      "HotAndCold.Application/1.0.0": {
+        "dependencies": {
+          "HotAndCold.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HotAndCold.Application.dll": {}
+        }
+      },
+      "HotAndCold.Domain/1.0.0": {
+        "runtime": {
+          "HotAndCold.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "HotAndCold.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotAndCold.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotAndCold.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
