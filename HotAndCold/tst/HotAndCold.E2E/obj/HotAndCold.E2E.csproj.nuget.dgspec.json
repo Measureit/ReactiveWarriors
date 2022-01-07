@@ -1,0 +1,297 @@
+{
+  "format": 1,
+  "restore": {
+    "R:\\ReactiveWarriors\\HotAndCold\\tst\\HotAndCold.E2E\\HotAndCold.E2E.csproj": {}
+  },
+  "projects": {
+    "R:\\ReactiveWarriors\\HotAndCold\\HotAndCold\\HotAndCold.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\ReactiveWarriors\\HotAndCold\\HotAndCold\\HotAndCold.csproj",
+        "projectName": "HotAndCold",
+        "projectPath": "R:\\ReactiveWarriors\\HotAndCold\\HotAndCold\\HotAndCold.csproj",
+        "packagesPath": "C:\\Users\\jaros\\.nuget\\packages\\",
+        "outputPath": "R:\\ReactiveWarriors\\HotAndCold\\HotAndCold\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jaros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Infrastructure\\HotAndCold.Infrastructure.csproj": {
+                "projectPath": "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Infrastructure\\HotAndCold.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Contract\\HotAndCold.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Contract\\HotAndCold.Contract.csproj",
+        "projectName": "HotAndCold.Contract",
+        "projectPath": "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Contract\\HotAndCold.Contract.csproj",
+        "packagesPath": "C:\\Users\\jaros\\.nuget\\packages\\",
+        "outputPath": "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jaros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Infrastructure\\HotAndCold.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Infrastructure\\HotAndCold.Infrastructure.csproj",
+        "projectName": "HotAndCold.Infrastructure",
+        "projectPath": "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Infrastructure\\HotAndCold.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jaros\\.nuget\\packages\\",
+        "outputPath": "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jaros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Contract\\HotAndCold.Contract.csproj": {
+                "projectPath": "R:\\ReactiveWarriors\\HotAndCold\\lib\\HotAndCold.Contract\\HotAndCold.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "R:\\ReactiveWarriors\\HotAndCold\\tst\\HotAndCold.E2E\\HotAndCold.E2E.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\ReactiveWarriors\\HotAndCold\\tst\\HotAndCold.E2E\\HotAndCold.E2E.csproj",
+        "projectName": "HotAndCold.E2E",
+        "projectPath": "R:\\ReactiveWarriors\\HotAndCold\\tst\\HotAndCold.E2E\\HotAndCold.E2E.csproj",
+        "packagesPath": "C:\\Users\\jaros\\.nuget\\packages\\",
+        "outputPath": "R:\\ReactiveWarriors\\HotAndCold\\tst\\HotAndCold.E2E\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jaros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "R:\\ReactiveWarriors\\HotAndCold\\HotAndCold\\HotAndCold.csproj": {
+                "projectPath": "R:\\ReactiveWarriors\\HotAndCold\\HotAndCold\\HotAndCold.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.22, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+﻿using FluentAssertions;
+using HotAndCold.E2E.Api;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TechTalk.SpecFlow;
+
+namespace HotAndCold.E2E.Steps
+{
+    [Binding]
+    public sealed class HotAndColdStepDefinitions
+    {
+        private readonly HotAndColdApi _hotAndCold;
+        private int _result;
+
+        public HotAndColdStepDefinitions(HotAndColdApi hotAndCold)
+        {
+            _hotAndCold = hotAndCold;
+        }
+
+        [Given("the first number is (.*)")]
+        public void GivenTheFirstNumberIs(int number)
+        {
+            _hotAndCold.FirstNumber = number;
+        }
+
+        [Given("the second number is (.*)")]
+        public void GivenTheSecondNumberIs(int number)
+        {
+            _hotAndCold.SecondNumber = number;
+        }
+
+        [When("the two numbers are added")]
+        public async Task WhenTheTwoNumbersAreAddedAsync()
+        {
+            _result = await _hotAndCold.AddAsync();
+        }
+
+        [When(@"the two numbers are subtracted")]
+        public async Task WhenTheTwoNumbersAreSubtractedAsync()
+        {
+            _result = await _hotAndCold.SubtractAsync();
+        }
+
+        [When(@"the two numbers are divided")]
+        public async Task WhenTheTwoNumbersAreDividedAsync()
+        {
+            _result = await _hotAndCold.DivideAsync();
+        }
+
+        [When(@"the two numbers are multiplied")]
+        public async Task WhenTheTwoNumbersAreMultiplied()
+        {
+            _result = await _hotAndCold.MultiplyAsync();
+        }
+
+        [Then("the result should be (.*)")]
+        public void ThenTheResultShouldBe(int result)
+        {
+            _result.Should().Be(result);
+        }
+    }
+}

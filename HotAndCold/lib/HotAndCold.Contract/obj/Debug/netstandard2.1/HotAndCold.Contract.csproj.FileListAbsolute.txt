@@ -1,0 +1,9 @@
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Contract\bin\Debug\netstandard2.1\HotAndCold.Contract.deps.json
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Contract\bin\Debug\netstandard2.1\HotAndCold.Contract.dll
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Contract\bin\Debug\netstandard2.1\HotAndCold.Contract.pdb
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Contract\obj\Debug\netstandard2.1\HotAndCold.Contract.GeneratedMSBuildEditorConfig.editorconfig
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Contract\obj\Debug\netstandard2.1\HotAndCold.Contract.AssemblyInfoInputs.cache
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Contract\obj\Debug\netstandard2.1\HotAndCold.Contract.AssemblyInfo.cs
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Contract\obj\Debug\netstandard2.1\HotAndCold.Contract.csproj.CoreCompileInputs.cache
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Contract\obj\Debug\netstandard2.1\HotAndCold.Contract.dll
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Contract\obj\Debug\netstandard2.1\HotAndCold.Contract.pdb

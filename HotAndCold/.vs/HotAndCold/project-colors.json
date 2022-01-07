@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ba950bfa-7a9b-4334-94f5-f26fa720252b": {
+      "ProjectGuid": "ba950bfa-7a9b-4334-94f5-f26fa720252b",
+      "DisplayName": "HotAndCold",
+      "ColorIndex": 0
+    },
+    "ffc7b85f-08a2-425c-9c25-17c782cd1e98": {
+      "ProjectGuid": "ffc7b85f-08a2-425c-9c25-17c782cd1e98",
+      "DisplayName": "HotAndCold.Domain",
+      "ColorIndex": 1
+    },
+    "a30a0671-7ad1-4021-9519-62ab847e03e9": {
+      "ProjectGuid": "a30a0671-7ad1-4021-9519-62ab847e03e9",
+      "DisplayName": "hunter",
+      "ColorIndex": 2
+    },
+    "650bbbf7-c80d-4d59-8bf8-07137f03a7e7": {
+      "ProjectGuid": "650bbbf7-c80d-4d59-8bf8-07137f03a7e7",
+      "DisplayName": "HotAndCold.Application",
+      "ColorIndex": 3
+    },
+    "4eeb9857-80f8-45b6-9c86-4202e975aabe": {
+      "ProjectGuid": "4eeb9857-80f8-45b6-9c86-4202e975aabe",
+      "DisplayName": "HotAndCold.Infrastructure",
+      "ColorIndex": 4
+    },
+    "3ffa35b7-a358-4826-967e-56cb1cb8e867": {
+      "ProjectGuid": "3ffa35b7-a358-4826-967e-56cb1cb8e867",
+      "DisplayName": "HotAndCold.UnitTests",
+      "ColorIndex": 5
+    },
+    "375deb51-7964-48c8-89e5-b34067b92f49": {
+      "ProjectGuid": "375deb51-7964-48c8-89e5-b34067b92f49",
+      "DisplayName": "HotAndCold.E2E",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "91657d7a-aa60-40a0-b7ea-ef01fa7b9a3b": {
+      "ProjectGuid": "91657d7a-aa60-40a0-b7ea-ef01fa7b9a3b",
+      "DisplayName": "HotAndCold.UnitTests",
+      "ColorIndex": 7
+    },
+    "95029763-fc3b-4597-b3f9-8f9c6c201ee9": {
+      "ProjectGuid": "95029763-fc3b-4597-b3f9-8f9c6c201ee9",
+      "DisplayName": "HotAndCold.E2E",
+      "ColorIndex": 8
+    },
+    "31f0d215-8dd3-4c32-92d3-f7d9b7aa7957": {
+      "ProjectGuid": "31f0d215-8dd3-4c32-92d3-f7d9b7aa7957",
+      "DisplayName": "HotAndCold.Infrastructure",
+      "ColorIndex": 9
+    },
+    "65249ab2-b953-4cde-a732-2b5c2c87b9ef": {
+      "ProjectGuid": "65249ab2-b953-4cde-a732-2b5c2c87b9ef",
+      "DisplayName": "HotAndCold.Integration",
+      "ColorIndex": 10
+    },
+    "d535ba9e-47e3-4dca-9e19-d2c65b3d8edd": {
+      "ProjectGuid": "d535ba9e-47e3-4dca-9e19-d2c65b3d8edd",
+      "DisplayName": "HotAndCold.Domain",
+      "ColorIndex": 11
+    },
+    "d75da96e-118f-4bd6-bbd9-12858b3eb7aa": {
+      "ProjectGuid": "d75da96e-118f-4bd6-bbd9-12858b3eb7aa",
+      "DisplayName": "HotAndCold.Contract",
+      "ColorIndex": 12
+    }
+  },
+  "NextColorIndex": 13
+}

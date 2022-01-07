@@ -1,0 +1,9 @@
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\bin\Debug\netstandard2.1\HotAndCold.Infrastructure.deps.json
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\bin\Debug\netstandard2.1\HotAndCold.Infrastructure.dll
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\bin\Debug\netstandard2.1\HotAndCold.Infrastructure.pdb
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstandard2.1\HotAndCold.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstandard2.1\HotAndCold.Infrastructure.AssemblyInfoInputs.cache
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstandard2.1\HotAndCold.Infrastructure.AssemblyInfo.cs
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstandard2.1\HotAndCold.Infrastructure.csproj.CoreCompileInputs.cache
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstandard2.1\HotAndCold.Infrastructure.dll
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Infrastructure\obj\Debug\netstandard2.1\HotAndCold.Infrastructure.pdb

@@ -1,0 +1,10 @@
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Application\bin\Debug\netstandard2.1\HotAndCold.Application.deps.json
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Application\bin\Debug\netstandard2.1\HotAndCold.Application.dll
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Application\bin\Debug\netstandard2.1\HotAndCold.Application.pdb
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Application\obj\Debug\netstandard2.1\HotAndCold.Application.csproj.AssemblyReference.cache
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Application\obj\Debug\netstandard2.1\HotAndCold.Application.GeneratedMSBuildEditorConfig.editorconfig
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Application\obj\Debug\netstandard2.1\HotAndCold.Application.AssemblyInfoInputs.cache
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Application\obj\Debug\netstandard2.1\HotAndCold.Application.AssemblyInfo.cs
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Application\obj\Debug\netstandard2.1\HotAndCold.Application.csproj.CoreCompileInputs.cache
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Application\obj\Debug\netstandard2.1\HotAndCold.Application.dll
+R:\ReactiveWarriors\HotAndCold\lib\HotAndCold.Application\obj\Debug\netstandard2.1\HotAndCold.Application.pdb

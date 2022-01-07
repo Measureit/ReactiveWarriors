@@ -1,0 +1,24 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "HotAndCold.Contract/1.0.0": {
+        "runtime": {
+          "HotAndCold.Contract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HotAndCold.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
